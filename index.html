@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <!-- Container form -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="heading">
+            <h2>Registration form</h2>
+        </div>
+
+        <!-- Form -->
+        <form class="form" id="form">
+            <div class="form-control">
+                <label for="username">Userame</label>
+                <input id="username" name="username" type="text" placeholder="Username">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password" placeholder="Password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="confirm">Confirm password</label>
+                <input id="confirm" name="confirm" type="password" placeholder="Confirm Password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/efad4e2eb1.js" crossorigin="anonymous"></script>
+    <script defer src="/app.js"></script>
+</body>
+
+</html>
+
+
+<!-- <form id="form" action="/" method="GET">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+            </div>
+            <div>
+                <label for="confirm">Confirm password</label>
+                <input id="confirm" name="confirm" type="password">
+            </div>
+            <button type="submit">Register</button>
+        </form> -->
